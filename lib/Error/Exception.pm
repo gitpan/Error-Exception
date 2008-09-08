@@ -24,7 +24,7 @@ use warnings;
 use Exception::Class;
 use base qw( Error Exception::Class::Base );
 
-our $VERSION = '1.0';
+our $VERSION = '1.1';
 
 # This "no critic" is open because I couldn't find the policy name
 sub new { ## no critic

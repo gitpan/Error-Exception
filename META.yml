@@ -1,6 +1,6 @@
 ---
 name: Error-Exception
-version: 1.0
+version: 1.1
 author:
   - 'Stephen Vance <steve@vance.com>'
 abstract: Combines Error and Exception::Class with correct stringication
@@ -17,6 +17,9 @@ build_requires:
 provides:
   Error::Exception:
     file: lib/Error/Exception.pm
+    version: 1.1
+  Error::Exception::Class:
+    file: lib/Error/Exception/Class.pm
     version: 1.0
 generated_by: Module::Build version 0.2808
 meta-spec:

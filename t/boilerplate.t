@@ -2,7 +2,7 @@
 
 use strict;
 use warnings;
-use Test::More tests => 3;
+use Test::More tests => 4;
 
 sub not_in_file_ok {
     my ($filename, %regex) = @_;
@@ -46,3 +46,4 @@ sub module_boilerplate_ok {
 }
 
 module_boilerplate_ok('lib/Error/Exception.pm');
+module_boilerplate_ok('lib/Error/Exception/Class.pm');
